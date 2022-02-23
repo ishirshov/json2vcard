@@ -1,0 +1,13 @@
+[package]
+name = "json2vcard"
+version = "0.1.0"
+edition = "2021"
+authors = ["Ildar S. <ishirshov@github.com>"]
+
+[dependencies]
+clap = { version = "3.1.1", features = ["derive"] }
+serde_json = { version = "1.0.79" }
+serde = { version = "1.0.136", features = ["derive"] }
+log = { version = "0.4.14" }
+env_logger = { version = "0.9.0" }
+chrono = { version = "0.4.19" , features = ["serde"] }
